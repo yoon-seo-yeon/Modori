@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="오늘의 감정을 골라보세요!"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/modori_font2"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_marginTop="50dp"
+        android:stretchColumns="0, 2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/Img_good"
+                android:src="@drawable/good"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <ImageView
+                android:id="@+id/Img_love"
+                android:src="@drawable/love"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <ImageView
+                android:id="@+id/Img_taste"
+                android:src="@drawable/taste"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="60dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Text_good"-->
+<!--                    android:text="기쁨"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Text_good"-->
+<!--                    android:text="기쁨"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Text_good"-->
+<!--                    android:text="기쁨"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"/>-->
+<!--            </LinearLayout>-->
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/Img_tired"
+                android:src="@drawable/tired"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <ImageView
+                android:id="@+id/Img_sad"
+                android:src="@drawable/sad"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <ImageView
+                android:id="@+id/Img_angry"
+                android:src="@drawable/angry"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/Img_awkward"
+                android:src="@drawable/awkward"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <ImageView
+                android:id="@+id/Img_um"
+                android:src="@drawable/um"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <ImageView
+                android:id="@+id/Img_umm"
+                android:src="@drawable/umm"
+                android:layout_margin="30dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/emotionbtn"
+        android:src="@drawable/arrow3"
+        android:background="@drawable/roundstyle3"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="40dp"
+        android:maxWidth="40dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+</LinearLayout>

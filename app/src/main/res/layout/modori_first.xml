@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFADE">
+
+    <ImageView
+        android:src="@drawable/diary"
+        android:layout_marginTop="230dp"
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:text="모도리"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/modori_font4"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/startbtn"
+        android:text="시작"
+        android:textSize="25dp"
+        android:fontFamily="@font/modori_font2"
+        android:background="#FFEEB2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
