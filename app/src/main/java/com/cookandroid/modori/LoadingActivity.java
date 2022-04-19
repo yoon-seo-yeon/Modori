@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
+//다이어리 시작 화면
 public class LoadingActivity extends Activity {
 
     Button startbtn;

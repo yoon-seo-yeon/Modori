@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+//회원가입 화면
 public class RegisterActivity extends AppCompatActivity {
     EditText uName,uPass; //사용자의 이름, 비밀번호
     Button registerbtn; //회원가입버튼

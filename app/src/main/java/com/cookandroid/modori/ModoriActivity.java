@@ -56,6 +56,7 @@ public class ModoriActivity extends AppCompatActivity {
         ModoriAdapter modoriadapter = new ModoriAdapter(modoriArrayList, this);
         listview.setAdapter(modoriadapter);
 
+        //다이어리 수정 화면으로 이동
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() { //리스트뷰 내 아이테 클릭시
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -75,6 +76,7 @@ public class ModoriActivity extends AppCompatActivity {
             }
         });
 
+        //다이어리 삭제
         listview.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() { //롱클릭시 삭제
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, final long id) {
@@ -89,7 +91,6 @@ public class ModoriActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         //String content = c_contents.trim();
                         String sql2 = "DELETE FROM Modori WHERE title = '" + t_title + "';";
-                        Toast.makeText(getApplicationContext(), "왜 안돼", Toast.LENGTH_SHORT).show();
                         db.execSQL(sql2);
 
                         Toast.makeText(getApplicationContext(), "삭제 완료", Toast.LENGTH_SHORT).show();

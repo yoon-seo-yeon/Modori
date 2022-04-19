@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+//리스트
 public class ModoriAdapter extends BaseAdapter {
     ArrayList<Modori> modoriArrayList = new ArrayList<>();
     Context mContext;

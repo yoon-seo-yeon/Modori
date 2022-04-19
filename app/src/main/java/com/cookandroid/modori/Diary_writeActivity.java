@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+//다이어리 작성
 public class Diary_writeActivity extends AppCompatActivity {
     EditText login_name;
     ImageButton loginbtn;

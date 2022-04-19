@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
+//Modori 데이터베이스
 public class ModoriDB extends SQLiteOpenHelper {
     public ModoriDB(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);

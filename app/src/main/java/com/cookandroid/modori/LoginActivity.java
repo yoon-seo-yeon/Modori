@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+//로그인 화면
 public class LoginActivity extends AppCompatActivity {
     EditText Username, Userpass; //사용자의 이름, 사용자의 비밀번호
     Button Loginbtn; //로그인 버튼

@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+//로그인 데이터베이스
 public class LoginDB extends SQLiteOpenHelper {
     public LoginDB(Context context) {
         super(context, "ModoriDB", null, 1);

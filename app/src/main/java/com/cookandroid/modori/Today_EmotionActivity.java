@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+//감정 화면
 public class Today_EmotionActivity extends AppCompatActivity {
     ImageView Img_good, Img_love, Img_taste, Img_tired, Img_sad, Img_angry, Img_awkward, Img_um, Img_umm;
     ImageButton emotionbtn;

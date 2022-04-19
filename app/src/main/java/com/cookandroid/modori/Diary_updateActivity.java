@@ -12,6 +12,7 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+//다이어리 업데이트(수정)
 public class Diary_updateActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

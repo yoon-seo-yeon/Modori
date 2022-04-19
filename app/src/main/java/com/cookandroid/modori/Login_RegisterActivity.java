@@ -8,6 +8,7 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+//로그인, 회원가입 화면
 public class Login_RegisterActivity extends AppCompatActivity {
 
     Button btn_login, btn_register;

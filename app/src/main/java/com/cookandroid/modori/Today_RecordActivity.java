@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+//오늘의 기록 화면
 public class Today_RecordActivity extends AppCompatActivity {
     ImageView sad, gloom, impassive, joy, smile;
     ImageView snow, rain, cloudy, wind, sunny;
